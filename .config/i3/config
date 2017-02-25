@@ -219,20 +219,20 @@ bindsym $mod+Shift++Tab workspace prev
 assign [class="deepin-terminal"] $workspace1
 assign [class="google-chrome-stable"] $workspace3
 assign [class="Visual-studio Code"] 4
-assign [class="Spotify"] $workspace10
+assign [class="Spotify"]$workspace10
 #assign [class="Thunderbird"]5
 
 # move focused container to workspace-移动到指定工作区
-bindsym $mod+Shift+1 move container to workspace 1
-bindsym $mod+Shift+2 move container to workspace 2
-bindsym $mod+Shift+3 move container to workspace 3
-bindsym $mod+Shift+4 move container to workspace 4
-bindsym $mod+Shift+5 move container to workspace 5
-bindsym $mod+Shift+6 move container to workspace 6
-bindsym $mod+Shift+7 move container to workspace 7
-bindsym $mod+Shift+8 move container to workspace 8
-bindsym $mod+Shift+9 move container to workspace 9
-bindsym $mod+Shift+0 move container to workspace 10
+bindsym $mod+Shift+1 move container to $workspace1
+bindsym $mod+Shift+2 move container to $workspace2
+bindsym $mod+Shift+3 move container to $workspace3
+bindsym $mod+Shift+4 move container to $workspace4
+bindsym $mod+Shift+5 move container to $workspace5
+bindsym $mod+Shift+6 move container to $workspace6
+bindsym $mod+Shift+7 move container to $workspace7
+bindsym $mod+Shift+8 move container to $workspace8
+bindsym $mod+Shift+9 move container to $workspace9
+bindsym $mod+Shift+0 move container to $workspace10
 
 
 # resize window (you can also use the mouse for that)-窗口大小调整$mod+r进入调整，enter结束调整。
