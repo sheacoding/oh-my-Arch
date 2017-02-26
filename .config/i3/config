@@ -278,12 +278,12 @@ mode "$mode_system" {
 exec --no-startup-id xset dpms 900 1800
 
 #===i3lock===i3锁屏，锁屏壁纸路径需要引号。
-#mode "i3lock: Return to lock/Escape to Cancel" {
-#        bindsym Return mode "default" exec --no-startup-id blurlock
-#        bindsym Escape mode "default"
-}
+# mode "i3lock: Return to lock/Escape to Cancel" {
+# bindsym Return mode "default" exec --no-startup-id blurlock
+# bindsym Escape mode "default"
+# }
 #$mod+alt+l锁屏
-#    bindsym $mod+mod1+l mode "i3lock: Return to lock/Escape to Cancel"
+# bindsym $mod+mod1+l mode "i3lock: Return to lock/Escape to Cancel"
     bindsym mod1+l exec --no-startup-id blurlock
 
 # ===i3-重载i3配置
@@ -295,4 +295,4 @@ bindsym $mod+Shift+s restart
 bindsym $mod+Shift+e exec "i3-nagbar -t warning -m 'You pressed the exit shortcut. Do you really want to exit i3? This will end your X session.' -b 'Yes, exit i3' 'i3-msg exit'"
 
 gaps inner 1
-gaps outer none
+gaps outer 0
